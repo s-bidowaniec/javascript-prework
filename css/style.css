@@ -1,8 +1,31 @@
 /* Variables */
 /* Globals */
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: grey;
+}
+
 /* Header */
 header h1 {
   text-align: center;
+  margin: 0;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBQ0EsWUFBQTtBQUNBLFdBQUE7QUFDQTtFQUNFLGtCQUFBO0FDQ0YiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+/* Game */
+.game h3, #buttons {
+  text-align: center;
+}
+
+#messages {
+  margin: 10px auto;
+}
+
+/* Results */
+.results {
+  text-align: center;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBQ0EsWUFBQTtBQUNBO0VBQ0UsdUJBQUE7QUNDRjs7QURDQTtFQUNFLHNCQUFBO0FDRUY7O0FEQUEsV0FBQTtBQUNBO0VBQ0Usa0JBQUE7RUFDQSxTQUFBO0FDR0Y7O0FEREEsU0FBQTtBQUNBO0VBQ0Usa0JBQUE7QUNJRjs7QURGQTtFQUNFLGlCQUFBO0FDS0Y7O0FESEEsWUFBQTtBQUNBO0VBQ0Usa0JBQUE7QUNNRiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

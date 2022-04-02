@@ -1,6 +1,24 @@
 /* Variables */
 /* Globals */
+body {
+  background-color: black;
+}
+.container {
+  background-color: grey;
+}
 /* Header */
 header h1 {
+  text-align: center;
+  margin: 0;
+}
+/* Game */
+.game h3, #buttons {
+  text-align: center;
+}
+#messages{
+  margin: 10px auto;
+}
+/* Results */
+.results {
   text-align: center;
 }

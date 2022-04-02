@@ -37,6 +37,7 @@ function displayResult(argComputerMove, argPlayerMove) {
     printMessage("Ty przegrywasz!");
     pc_score += 1;
   }
+  clearMessages("results");
   printMessage(player_score + " - " + pc_score, "results");
 }
 

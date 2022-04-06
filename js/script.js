@@ -1,4 +1,6 @@
 {
+  let pc_score = 0;
+  let player_score = 0;
   const getMoveName = (argMoveId) => {
     if (argMoveId == 1) {
       return "kamień";
@@ -45,17 +47,15 @@
   const playGame = (playerInput) => {
     clearMessages();
     console.log("player input value:", playerInput);
-    let playerMove = getMoveName(playerInput);
+    const playerMove = getMoveName(playerInput);
     console.log("player move is:", playerMove);
-    let randomNumber = Math.floor(Math.random() * 3 + 1);
+    const randomNumber = Math.floor(Math.random() * 3 + 1);
     console.log("Random number: " + randomNumber);
-    let computerMove = getMoveName(randomNumber);
+    const computerMove = getMoveName(randomNumber);
     console.log("computer move is:", computerMove);
     displayResult(computerMove, playerMove);
   };
 
-  let pc_score = 0;
-  let player_score = 0;
   document.getElementById("play-rock").addEventListener("click", function () {
     playGame(1);
   });
